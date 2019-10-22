@@ -1,0 +1,28 @@
+.tooltipSkello {
+    font-family: Product Sans;
+    font-size: 14px;
+    line-height: 20px;
+    color: #1B2733;
+    text-align: center;
+    border: #1B2733;
+}
+
+.tooltipSkello button{
+    font-family: Product Sans;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    background: #1A6EFC;
+    background-image: none;
+    border-radius: 4px;
+}
+
+.skello {
+    border: 2px solid #1A6EFC;
+    border-radius: 4px;
+}
+
+@font-face {
+    font-family: "Product Sans";
+    src: url("ProductSans-Regular.ttf");
+}
