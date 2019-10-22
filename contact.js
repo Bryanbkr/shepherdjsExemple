@@ -40,8 +40,8 @@ tour.addStep({
 
 tour.addStep({
     id: 'example-step',
-    title: 'Start',
-    text: 'Add input',
+    title: 'Input',
+    text: 'Great now, add an input',
     attachTo: {
         element: '#inputText',
         on: 'bottom'
@@ -50,7 +50,7 @@ tour.addStep({
     when: {
         show: function () {
             let typingTimer;   
-            const doneTypingInterval = 1000;
+            const doneTypingInterval = 500;
             const $input = $("#inputText");
 
             //on keyup, start the countdown
