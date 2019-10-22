@@ -22,6 +22,19 @@
     border-radius: 4px;
 }
 
+.shepherd-header{
+    background: #FFFFFF !important;
+}
+
+.shepherd-title{
+    color: #1B2733 !important;
+    font-family: Product Sans;
+    font-size: 16px;
+    line-height: 19px;
+    background: #FFFFFF !important;
+    font-weight: bold !important;
+}
+
 @font-face {
     font-family: "Product Sans";
     src: url("ProductSans-Regular.ttf");
