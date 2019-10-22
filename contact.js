@@ -26,7 +26,7 @@ tour.addStep({
 tour.addStep({
     id: 'example-step',
     title: 'Contacts',
-    text: 'Look at thoses contacts amazing',
+    text: 'Look at thoses contacts amazing, activate one to continue',
     attachTo: {
         element: '#Jean',
         on: 'bottom'
